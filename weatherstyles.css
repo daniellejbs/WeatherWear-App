@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color:midnightblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xxx-large;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #006D77;
+    font-size: larger;
+}
+
+p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+body {
+    background-color:floralwhite;
+}
+
+#tempSelect, #eventSelect {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+#action, #clear {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: medium;
+    background-color: #a9def9;
+    color: navy;
+}
+
+#output {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherWear🌥️</title>
+<link rel="stylesheet" href="weatherstyles.css"/>
+</head>
+<body>
+    <h1>WeatherWear🌥️</h1>
+    <p>Is the UK's turbulent weather making it hard to decide what to wear? This site will help!</p>
+
+    <h3>Step 1: Select the temperature (in °c)</h3>
+    <div class="row">
+        <div class="field">
+            <label for="tempSelect"></label>
+            <select id="tempSelect">
+                <option value="" disabled selected>Please select</option>
+                <option value="cold">0-10°c</option>
+                <option value="mild">11-20°c</option>
+                <option value="hot">21°c+</option>
+            </select>
+        </div>
+    
+    <h3>Step 2: Select the event you're dressing for</h3>
+        <div class="field">
+            <label for="eventSelect"></label>
+            <select id="eventSelect">
+                <option value="" disabled selected>Please select</option>
+                <option value="casual">A casual day</option>
+                <option value="work">Work</option>
+                <option value="formal">A formal event</option>
+            </select>
+        </div>
+    </div>
+
+    <h3>Step 3: Click generate to see your outfit</h3>
+    <button id="action">Generate</button>
+
+<hr>
+<h3>Your perfect outfit</h3>
+<div id="output"></div>
+<button id="clear" type="button">Clear results</button>
+<script src="WeatherWear.js"></script>    
+</body>
+</html>
